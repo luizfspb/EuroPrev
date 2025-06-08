@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroPrev - Previsão do Tempo para a Europa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <img src="https://img.nsctotal.com.br/wp-content/uploads/2023/10/Globo-terrestre_Banco-de-Imagens.jpg" 
+     alt="Earth from Space" 
+     class="top-banner"/>
+<header>
+        <h1>EuroPrev</h1>
+        <h2>Previsão do Tempo para a Europa</h2>
+        <p>Distribuído por <a href="http://www.7timer.info" target="_blank">7Timer!</a></p>
+    </header>
+    <main>
+        <div class="city-selector">
+            <label for="city">Selecione a cidade:</label>
+            <select id="city">
+                <option value="" disabled selected>Escolha uma cidade</option>
+            </select>
+        </div>
+
+        <div class="forecast-container" id="forecast-container"></div>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2023 EuroPrev</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
